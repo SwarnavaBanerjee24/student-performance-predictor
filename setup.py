@@ -1,3 +1,4 @@
+'''This setup.py can be used to build the entire Machine Learning application as a package and deploy it elsewhere'''
 from setuptools import find_packages,setup
 from typing import List
 
