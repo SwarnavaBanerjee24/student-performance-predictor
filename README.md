@@ -1,1 +1,1 @@
-## My firs ML Project
+## My first ML Project
