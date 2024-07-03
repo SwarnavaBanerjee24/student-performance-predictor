@@ -1,0 +1,13 @@
+[2024-06-27 11:36:53,163] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-06-27 11:36:53,168] 97 werkzeug - INFO -  * Debugger PIN: 122-525-598
+[2024-06-27 11:38:30,290] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:30] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-06-27 11:38:30,353] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-06-27 11:38:30,359] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-06-27 11:38:30,383] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-06-27 11:38:30,422] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-06-27 11:38:36,915] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:36] "GET /predictdata HTTP/1.1" 200 -
+[2024-06-27 11:38:50,323] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:50] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-06-27 11:38:50,390] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:50] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-06-27 11:38:50,393] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:50] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-06-27 11:38:50,455] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:38:50] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-06-27 11:40:13,362] 97 werkzeug - INFO -  * Detected change in 'D:\\VIT\\ML Projects\\src\\pipeline\\predict_pipeline.py', reloading

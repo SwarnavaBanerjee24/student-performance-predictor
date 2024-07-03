@@ -1,0 +1,5 @@
+[2024-06-27 11:42:09,633] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-06-27 11:42:09,643] 97 werkzeug - INFO -  * Debugger PIN: 122-525-598
+[2024-06-27 11:42:34,908] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:42:34] "POST /predictdata HTTP/1.1" 200 -
+[2024-06-27 11:42:50,822] 97 werkzeug - INFO - 127.0.0.1 - - [27/Jun/2024 11:42:50] "POST /predictdata HTTP/1.1" 200 -
+[2024-06-27 11:44:01,512] 97 werkzeug - INFO -  * Detected change in 'd:\\vit\\ml projects\\src\\components\\data_transformation.py', reloading
