@@ -1,1 +1,74 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Performance Predictor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <script>
+    $(document).ready(function(){
+      // When the "Start predicting" button is clicked
+      $(".btn-start-predicting").click(function(){
+        // Redirect to home.html
+        window.location.href = "predictdata";
+      });
+    });
+  </script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Student Performance Predictor</h1>
+  <p>Predicts the student's performance using the parameters given below</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Gender</h3>
+      <p>Gender can impact student performance through various factors, such as societal expectations, teacher biases, and access to resources.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Race or Ethnicity</h3>
+      <p>Race or ethnicity can significantly impact student performance through factors such as socio-economic disparities, cultural differences, and systemic biases in the education system.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Parental Education</h3>
+      <p>The parental level of education often impacts student performance, as parents with higher education levels are typically more equipped to provide academic support and create an enriching learning environment.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Lunch</h3>
+      <p>Lunch plays a crucial role in student performance by providing essential nutrients that fuel the brain and body, enhancing concentration, memory, and overall cognitive function.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Test Preparation</h3>
+      <p>Test preparation can significantly boost student performance by improving familiarity with test formats, reducing anxiety, and enhancing retention of key concepts.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Maths score</h3>
+      <p>Math scores can heavily influence overall student performance as proficiency in mathematics often correlates with critical thinking skills, problem-solving abilities, and logical reasoning.</p>
+      <p>Maths score will be predicted using this web application</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Reading Score</h3>
+      <p>Reading scores significantly impact student performance across various subjects and academic domains.</p>
+    </div>
+    <div class="col-sm-3">
+      <h3>Writing Score</h3>
+      <p>A strong writing score is pivotal for student performance as it reflects proficiency in communication, critical thinking, and organizational skills. </p>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <button type="button" class="btn btn-primary btn-lg btn-start-predicting">Start predicting</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
