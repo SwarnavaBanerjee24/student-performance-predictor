@@ -93,3 +93,8 @@ After setting up environment and installing packages Run
 
 ### After Prediction
 ![Screenshot 2024-07-06 211430](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20211430.png)
+
+## Deployment using CI-CD pipeline using Amazon EC2 Instance
+1. Setup Docker build
+2. Setup Github workflow
+3. Setup IAM user in AWS
