@@ -74,6 +74,15 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 
 ## Run this project locally on your computer
 Clone this project 
-````bash
-git clone https://github.com/SwarnavaBanerjee24/ml-projects.git
+
+```bash
+git clone https://github.com/SwarnavaBanerjee24/ml-projects
 ```
+
+After setting up environment and installing packages Run
+
+```bash
+  python application.py
+```
+## Screenshots
+### Home page
