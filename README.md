@@ -89,7 +89,7 @@ After setting up environment and installing packages Run
 ![Screenshot 2024-07-06 203324](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203324.png)
 
 ### Before Prediction
-![Screenshot 2024-07-06 211422](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203447.png)
+![Screenshot 2024-07-06 211422](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20211422.png)
 
 ### After Prediction
-![Screenshot 2024-07-06 211430](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203519.png)
+![Screenshot 2024-07-06 211430](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20211430.png)
