@@ -5,12 +5,61 @@
     <title>Student Exam Performance Prediction</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .form-group label {
+            font-weight: bold;
+            color: #555;
+        }
+        .btn-primary {
+            background-color: #fda085;
+            border-color: #fda085;
+        }
+        .btn-primary:hover {
+            background-color: #f6d365;
+            border-color: #f6d365;
+        }
+        .form-control {
+            border-radius: 5px;
+            box-shadow: none;
+        }
+        .form-control:focus {
+            border-color: #fda085;
+            box-shadow: 0 0 5px rgba(253, 160, 133, 0.5);
+        }
+        .icon {
+            color: #fda085;
+            font-size: 50px;
+            display: block;
+            margin: 20px auto;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <div class="container mt-5">
+    <div class="container">
         <div class="login">
             <form action="{{ url_for('predict_datapoint')}}" method="post">
-                <h1 class="text-center mb-4">Student Exam Performance Prediction</h1>
+                <h1 class="text-center mb-4"><i class="fas fa-graduation-cap icon"></i>Student Exam Performance Prediction</h1>
                 
                 <div class="row">
                     <div class="col-md-6">
@@ -74,10 +123,14 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Predict your Maths Score</button>
+                <button type="submit" class="btn btn-primary btn-block">Predict your Maths Score</button>
             </form>
-            <h2 class="mt-4">The prediction is {{ results }}</h2>
+            <h2 class="text-center mt-4">The prediction is {{ results }}</h2>
         </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Student Exam Performance Prediction. All rights reserved.
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
