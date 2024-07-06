@@ -54,3 +54,24 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 
 ## Exploratory Data Analysis (EDA)
 - Find more details in the [EDA](notebook/EDA.ipynb) and [Model Training](notebook/Model_Training.ipynb)
+
+## Conclusions from EDA
+- Student's Performance is related with lunch, race, parental level education
+- Females lead in pass percentage and also are top-scorers
+- Student's Performance is not much related with test preparation course
+- Finishing preparation course is benefitial.
+
+## Models used for Training
+- Linear Regression
+- Lasso
+- Ridge
+- K-Neighbours Regressor
+- Decision Tree
+- Random Forest Regressor
+- XGB Regressor
+- CatBoosting Regressor
+- AdaBoost Regressor
+
+## Run this project locally on your computer
+Clone this project 
+`https://github.com/SwarnavaBanerjee24/ml-projects.git`
