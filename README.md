@@ -9,3 +9,12 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 5. Test Preparation Course
 6. Writing score (Out of 100)
 7. Reading Score (Out of 100)
+
+## Steps to followed 
+- Understand the problem statement
+- Dataset
+- Perform data checks
+- Exploratory Data Analytics
+- Data Pre-Processing
+- Model Training
+- Selecting the best model
