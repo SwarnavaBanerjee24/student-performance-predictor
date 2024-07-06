@@ -86,3 +86,10 @@ After setting up environment and installing packages Run
 ```
 ## Screenshots
 ### Home page
+![Screenshot 2024-07-06 203324](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203324.png)
+
+### Before Prediction
+![Screenshot 2024-07-06 203447](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203447.png)
+
+### After Prediction
+![Screenshot 2024-07-06 203519](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203519.png)
