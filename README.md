@@ -1,4 +1,6 @@
 # Student Performance Predictor
+The main objective of this project is to develop a predictive model that can forecast the performance of students in their mathematics exam. This project is solely for the purpose of learning.
+
 ## Problem Statement
 This end to end Machine Learning project helps in predicting the Maths Score of a student using the following 7 parameters:-
 
