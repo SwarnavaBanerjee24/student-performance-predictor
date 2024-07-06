@@ -33,3 +33,24 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 
 ## Dataset Details
 - Source:- https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
+
+## Dataset Information
+- gender : sex of students -> (Male/female)
+- race/ethnicity : ethnicity of students -> (Group A, B,C, D,E)
+- parental level of education : parents' final education ->(bachelor's degree, some college, master's degree, associate's degree, high school)
+- lunch : having lunch before test (standard or free/reduced)
+- test preparation course : complete or not complete before test
+- math score (To be predicted)
+- reading score (out of 100)
+- writing score (out of 100)
+
+## Data Checks Performed
+- Missing values
+- Duplicates
+- data type
+- the number of unique values of each column
+- statistics of data set
+- various categories present in the different categorical column
+
+## Exploratory Data Analysis (EDA)
+- Find more details in the [EDA](notebook/EDA.ipynb) and [Model Training](notebook/Model_Training.ipynb)
