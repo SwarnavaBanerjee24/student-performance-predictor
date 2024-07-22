@@ -78,7 +78,7 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 Clone this project 
 
 ```bash
-git clone https://github.com/SwarnavaBanerjee24/ml-projects
+git clone https://github.com/SwarnavaBanerjee24/student-performance-predictor.git
 ```
 
 After setting up environment and installing packages Run
