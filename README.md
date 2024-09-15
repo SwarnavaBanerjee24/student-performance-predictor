@@ -12,7 +12,7 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 6. Writing score (Out of 100)
 7. Reading Score (Out of 100)
 
-## Steps to followed for this ML project
+## Steps to be followed for this ML project
 - Understand the problem statement
 - Dataset
 - Perform data checks
