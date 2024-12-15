@@ -1,6 +1,23 @@
 # Student Performance Predictor
 The main objective of this project is to develop a predictive model that can forecast the performance of students in their mathematics exam. This project is solely for the purpose of learning.
 
+---
+
+## Table of Contents
+1. [Problem Statement](#problem-statement)
+2. [Steps to be followed for this ML project](#Steps-to-be-followed-for-this-ML-project)
+3. [Steps to be followed until Deployment](#Steps-to-be-followed-until-Deployment)
+4. [Dataset Details](#Dataset-Details)
+5. [Dataset Information](#Dataset-Information)
+6. [Data Checks Performed](#Data-Checks-Performed)
+7. [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis)
+8. [Conclusions from EDA](#Conclusions-from-EDA)
+9. [Models used for Training](#Models-used-for-Training)
+10. [Run this project locally on your computer](#Run-this-project-locally-on-your-computer)
+11. [Screenshots](#screenshots)
+
+---
+
 ## Problem Statement
 This end to end Machine Learning project helps in predicting the Maths Score of a student using the following 7 parameters:-
 
@@ -12,6 +29,8 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 6. Writing score (Out of 100)
 7. Reading Score (Out of 100)
 
+---
+
 ## Steps to be followed for this ML project
 - Understand the problem statement
 - Dataset
@@ -20,6 +39,8 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 - Data Pre-Processing
 - Model Training
 - Selecting the best model
+
+---
 
 ## Steps to be followed until Deployment
 - Setup a github Repository and a local environment
@@ -33,8 +54,12 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 - Undergo Model Hyper Parameter Training
 - Create Prediction Pipeline using Flask Webapp
 
+---
+
 ## Dataset Details
 - Source:- https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
+
+---
 
 ## Dataset Information
 - gender : sex of students -> (Male/female)
@@ -46,6 +71,8 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 - reading score (out of 100)
 - writing score (out of 100)
 
+---
+
 ## Data Checks Performed
 - Missing values
 - Duplicates
@@ -54,14 +81,20 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 - statistics of data set
 - various categories present in the different categorical column
 
+---
+
 ## Exploratory Data Analysis (EDA)
 - Find more details in the [EDA](notebook/EDA.ipynb) and [Model Training](notebook/Model_Training.ipynb)
+
+---
 
 ## Conclusions from EDA
 - Student's Performance is related with lunch, race, parental level education
 - Females lead in pass percentage and also are top-scorers
 - Student's Performance is not much related with test preparation course
-- Finishing preparation course is benefitial.
+- Finishing preparation course is beneficial.
+
+---
 
 ## Models used for Training
 - Linear Regression
@@ -73,6 +106,8 @@ This end to end Machine Learning project helps in predicting the Maths Score of 
 - XGB Regressor
 - CatBoosting Regressor
 - AdaBoost Regressor
+
+---
 
 ## Run this project locally on your computer
 Clone this project 
@@ -86,6 +121,9 @@ After setting up environment and installing packages Run
 ```bash
   python application.py
 ```
+
+---
+
 ## Screenshots
 ### Home page
 ![Screenshot 2024-07-06 203324](https://github.com/SwarnavaBanerjee24/ml-projects/blob/main/templates/Screenshot%202024-07-06%20203324.png)
